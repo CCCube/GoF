@@ -1,8 +1,9 @@
 package com.observer;
 
 public class ConcreteSubject extends Subject {
-
-    private String subjectState;
+	
+	//具体的主题 ConcreteSubject，继承扩展的抽象subject的属性
+    private String subjectState; 
 
 	public String getSubjectState() {
 		return subjectState;
@@ -11,6 +12,5 @@ public class ConcreteSubject extends Subject {
 	public void setSubjectState(String subjectState) {
 		this.subjectState = subjectState;
 	}
-
 	
 }
