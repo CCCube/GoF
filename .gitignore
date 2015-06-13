@@ -7,10 +7,4 @@
 
 *.class
 
-bin/com/singleton/单例模式中懒加载和饿汉模式
-
-bin/com/singleton/SSH中单例Service的设计
-
-bin/com/observer/观察订阅者模式
-
 /bin
