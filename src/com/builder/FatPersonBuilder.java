@@ -8,25 +8,25 @@ public class FatPersonBuilder extends Builder{
 
 	@Override
 	public void buildHead() {
-		person.setHead("ÅÖ×ÓµÄÄÔ´ü");
+		person.setHead("è‚¥ä»”çš„å¤´éƒ¨");
 		
 	}
 
 	@Override
 	public void buildBody() {
-		person.setBody("ÅÖ×ÓµÄÉíÌå");
+		person.setBody("è‚¥ä»”çš„èº«ä½“");
 		
 	}
 
 	@Override
 	public void buildArm() {
-		person.setArm("ÅÖ×ÓµÄÊÖ±Û");
+		person.setArm("è‚¥ä»”çš„æ‰‹è‡‚");
 		
 	}
 
 	@Override
 	public void buildLeg() {
-		person.setLeg("ÅÖ×ÓµÄ´óÍÈ");
+		person.setLeg("è‚¥ä»”çš„å¤§è…¿");
 		
 	}
 

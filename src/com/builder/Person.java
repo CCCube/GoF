@@ -1,6 +1,7 @@
 package com.builder;
 
-// product:person
+// product:person  人可分为具体的瘦子，肥仔等类别   
+// 若product：sql，则有mysql、nosql等，属性值可以有版本号，引擎，编码等
 public class Person {
 
 	public String head;

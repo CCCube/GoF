@@ -8,24 +8,24 @@ public class ThinPersonBuilder extends Builder{
 
 	@Override
 	public void buildHead() {
-		person.setHead("Êİ×ÓµÄÄÔ´ü");
+		person.setHead("ç˜¦å­çš„å¤´éƒ¨");
 	}
 
 	@Override
 	public void buildBody() {
-		person.setBody("Êİ×ÓµÄÉíÌå");
+		person.setBody("ç˜¦å­çš„èº«ä½“");
 
 	}
 
 	@Override
 	public void buildArm() {
-		person.setArm("Êİ×ÓµÄÊÖ±Û");
+		person.setArm("ç˜¦å­çš„æ‰‹è‡‚");
 		
 	}
 
 	@Override
 	public void buildLeg() {
-		person.setLeg("Êİ×ÓµÄ´óÍÈ");
+		person.setLeg("ç˜¦å­çš„å¤§è…¿");
 	}
 
 }
