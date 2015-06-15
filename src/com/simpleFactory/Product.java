@@ -2,18 +2,18 @@ package com.simpleFactory;
 
 public abstract class Product {
 
-	// ³éÏóÀà¿ÉÒÔÓĞÄ¬ÈÏµÄ¹¹Ôìº¯Êı
+	// æŠ½è±¡äº§å“
 	public Product(){
 		
 	}
 	
-	// ³éÏóº¯Êı¼ÓabstractĞŞÊÎ·û
+	// æŠ½è±¡äº§å“å…·æœ‰çš„æ–¹æ³•
 	public abstract void operation();
 	
-	//¿ÉÒÔÉùÃ÷ºÍÊ¹ÓÃ×Ö¶Î
+	// æŠ½è±¡äº§å“çš„åå­—
 	public String string ;
 
-	//¿ÉÒÔ¶¨ÒåºÍÊ¹ÓÃ¾ßÌå·½·¨£¨±ØĞëÓĞ·½·¨Ìå£©
+	// getters and setters
 
 	public String getString() {
 		return string;

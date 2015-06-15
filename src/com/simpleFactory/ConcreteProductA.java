@@ -1,20 +1,11 @@
 package com.simpleFactory;
-
+// å…·ä½“äº§å“A
 public class ConcreteProductA extends Product {
 
+	// Aäº§å“ç‰¹å®šçš„æ–¹æ³•
 	@Override
 	public void operation() {
 		System.out.println("I am concreteProductA.....");
 	}
 
-	// ¼Ì³Ğ³éÏóÀà£¬ÊµÏÖ³éÏóº¯Êı£¬±ä³É¾ßÌåÀà¡£  
-	//³éÏóÀàÓëÆÕÍ¨ÀàµÄÇø±ğ£º³éÏóÀà²»ÄÜÖ±½ÓÊµÀı»¯£¬Ö»ÄÜ±»¼Ì³Ğ£¬¶øÇÒÊÇ1£º1¼Ì³Ğ£¬java²»ÄÜ¶à¼Ì³Ğ
-	//¿ÉÒÔ¶¨ÒåÆÕÍ¨º¯Êı£¨ÓĞº¯ÊıÌåÊµÏÖ£© ¿ÉÒÔ¶¨ÒåºÍÊ¹ÓÃÆÕÍ¨×Ö¶Î
-	public static void main(String[] agrs) {
-		ConcreteProductA concreteProductA = new ConcreteProductA();
-		concreteProductA.setString("invoking Product`s setString()");
-		System.out.println(concreteProductA.getString());
-		concreteProductA.operation();
-					
-	}
 }

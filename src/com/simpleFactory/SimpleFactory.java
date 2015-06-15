@@ -1,12 +1,12 @@
 package com.simpleFactory;
-
+// 简单工厂，将客户端与产品的实例化过程解耦出来，客户端只关注使用，不关注生产。
 public class SimpleFactory {
 
 	public static Product createProduct(int productType){
 		
 		Product product = null;
 		
-		// swithc��Only convertible int values or enum constants are permitted
+		// switch Only convertible int values or enum constants are permitted
 		
 		switch (productType) {
 		case 1:	
