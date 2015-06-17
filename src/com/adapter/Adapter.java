@@ -1,6 +1,5 @@
 package com.adapter;
 
-// ¶ÔÏóÊÊÅäÆ÷
 public class Adapter extends Target{
 
 	Adaptee adaptee = new Adaptee();

@@ -1,6 +1,6 @@
 package com.abstractFactory;
-
+// 抽象IEmployee类
 public interface IEmployee {
 
-	public String getName();
+	public abstract String getName();
 }

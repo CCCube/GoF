@@ -1,8 +1,8 @@
 package com.abstractFactory;
-
+//抽象Iuser类
 public interface IUser {
 
-	public String getName();
+	public abstract String getName();
 	
 	
 }

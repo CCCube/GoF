@@ -7,6 +7,7 @@ public class Test {
 	 */
 	public static void main(String[] args) {
 
+		// 抽象工厂指向具体工厂
 		AbstractFactory sqlFactory = new SqlFactory();
 		
 		AbstractFactory accessFactory = new AccessFactory();
