@@ -1,5 +1,6 @@
 package com.proxy;
-
+//具体RealSubject，实现了Subject的方法
+//需要进行代理的对象，不直接暴露给client
 public class RealSubject implements Subject {
 
 	@Override
