@@ -1,6 +1,6 @@
 package com.interfaceadapter;
 
-
+//继承目标类，实现新的接口，覆盖重写
 public class Adapter extends Target implements Adaptee{
 
 	@Override

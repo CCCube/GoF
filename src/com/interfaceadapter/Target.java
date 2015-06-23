@@ -1,5 +1,4 @@
 package com.interfaceadapter;
-
 public class Target {
 
 	public void request(){
